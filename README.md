@@ -256,7 +256,3 @@ Potential features for future updates:
 
 ---
 
-**Built with ❤️ by Mahbub Ul Alam Bhuiyan**
-
-*Last updated: 2024*
-
