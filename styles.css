@@ -230,6 +230,25 @@ h1, h2, h3, h4, h5, h6 {
     align-items: center;
     gap: 0.75rem;
     margin-left: 1rem;
+    flex-shrink: 0;
+}
+
+.nav-toggle-mobile {
+    display: none;
+}
+
+.nav-toggle-mobile .theme-toggle {
+    width: 100%;
+    justify-content: flex-start;
+    gap: 0.6rem;
+    padding: 0.85rem 1.5rem;
+    border-radius: 12px;
+    background: rgba(15, 23, 42, 0.04);
+}
+
+.nav-toggle-mobile .theme-toggle span {
+    font-size: 0.95rem;
+    font-weight: 600;
 }
 
 .btn-cv {
@@ -1604,9 +1623,11 @@ body.dark-theme .footer {
     }
     
     .nav-menu {
+        display: flex;
         position: fixed;
         left: -100%;
         top: 70px;
+        z-index: 998;
         flex-direction: column;
         background-color: rgba(255, 255, 255, 0.98);
         backdrop-filter: blur(20px);
@@ -1670,11 +1691,15 @@ body.dark-theme .footer {
     .btn-cv i {
         font-size: 1.1rem;
     }
+    /* Hide desktop toggle in floating actions on mobile */
+    .nav-actions .theme-toggle {
+        display: none;
+    }
     
-    .theme-toggle {
-        width: 56px;
-        height: 56px;
-        border-radius: 50%;
+    /* Show theme toggle inside drawer */
+    .nav-toggle-mobile {
+        display: block;
+        padding: 0 1rem;
     }
     
     .hero-container {
