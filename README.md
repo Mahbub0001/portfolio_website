@@ -17,6 +17,7 @@ The official personal portfolio website of **Mahbub Ul Alam Bhuiyan**, showcasin
 
 - **Full Name:** Mahbub Ul Alam Bhuiyan
 - **Role:** Educational Technology and Engineering Student
+- **Institution:** University of Frontier Technology, Bangladesh (UFTB)
 - **Primary Interests:**
   - Generative AI & Large Language Models
   - Artificial Intelligence and Machine Learning Research
